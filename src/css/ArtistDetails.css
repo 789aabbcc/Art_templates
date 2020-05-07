@@ -1,0 +1,80 @@
+/* 艺术家详情 */
+.ml30 {
+    margin-left:30px
+}
+.background {
+    width: 1200px;
+    height: 282px;
+    background-color: #7B3E3E;
+}
+
+.background img {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 102px;
+    float: left;
+}
+
+.background  .right {
+    width: 690px;
+    float: left;
+    margin-left: 24px;
+}
+.background .right  .name{
+    text-align: left;
+    height: 24px;
+    margin-top: 14px;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.background .author{
+    text-align: left;
+    height: 24px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #FFFFFF
+}
+.background  .content{
+    width: 690px;
+    height: 110px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .4);
+}
+
+
+.background .bottoms {
+    width: 690px;
+    height: 20px;
+}
+.background  .bottoms .left {
+    float: left;
+    color: rgba(255, 255, 255, .4);
+}
+.background  .bottoms .right{
+    text-align: right;
+    font-size: 14px;
+    color: rgba(255, 255, 255, .6);
+    float: right;
+}
+.background  .bottoms .right span:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.background  .bottoms .right i:hover{
+    cursor: pointer;
+    color: #fff;
+}
+ .contents {
+    width: 690px;
+    height: 404px;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 408px;
+    line-height: 24px;
+    font-size: 13px;
+    color: #666;
+}

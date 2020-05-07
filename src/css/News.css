@@ -1,0 +1,125 @@
+/* 所有的页面样式 */
+
+/* 新闻页面start */
+.mrs {
+    margin-right: 0px;
+}
+.header {
+    width: 1200px;
+    height: 94px;
+    padding-bottom: 20px;
+}
+.topnav {
+    text-align: center;
+    padding-top: 47px;
+    margin: 0 auto;
+    font-size: 14px;
+    letter-spacing:20;
+    color:#999;
+    
+}
+
+.topnav span {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.topnav span:hover,i:hover {
+    color:  #7B3E3E;
+}
+
+ .topnav .lastsp {
+    margin-right: 0px;
+    cursor: pointer;
+}
+ 
+
+
+
+.content .list {
+    float: left;
+    width: 384px;
+    height: 240px;
+    margin-bottom: 20px;
+    margin-right: 24px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.content .list:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+
+}
+
+.content .list .list-title {
+    text-align: left;
+    padding-top: 34px;
+    padding-left: 36px;
+    font-size: 16px;
+    color: #222;
+
+}
+.content .list:hover .list-title {
+    color: #7B3E3E;
+}
+
+.content .list .list-time {
+    text-align: left;
+    height: 16px;
+    padding-top: 16px;
+    padding-left: 36px;
+    font-size: 12px;
+    color: #999;
+}
+.content .list .list-content {
+    text-align: left;
+    height: 98px;
+    padding-top: 28px;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-size: 13px;
+    line-height: 26px;
+    color: #666;
+   
+}
+
+.paging {
+    text-align: center;
+    height: 318px;
+    padding-top: 120px;
+    margin: 0 auto;
+}
+
+.paging span {
+    display: inline-block;
+    text-align: center;
+    margin-right: 34px;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+}
+.paging span:hover {
+    color: #7B3E3E;
+    cursor: pointer;
+}
+.bottom {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #AAAAAA;
+    margin-bottom: 20px;
+}
+
+.main  .content .mr0 {
+    margin-right: 0px;
+}
+ .tab-item {
+            display: none;
+        }
+
+        .tab-item.active {
+            display: block;
+        }
+/* 新闻页面end */
+
+
+
+

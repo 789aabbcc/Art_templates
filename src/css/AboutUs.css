@@ -1,0 +1,131 @@
+/* 关于我们 */
+.ml30{
+    margin-left:30px;
+}
+
+.top{
+    width: 1200px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.top .top-left {
+    float: left;
+}
+.top .top-left .name{
+    text-align: left;
+    height: 51px;
+    padding-bottom: 24px;
+    font-size: 20px;
+    color: #222;
+}
+
+.top .top-left .introduce{
+    text-align: left;
+    height: 21px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    color: #222;
+}
+
+.top .top-left .details{
+    width: 486px;
+    height: 70px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 24px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.top .top-right {
+    float: right;
+}
+
+.bottom {
+    text-align: center;
+    height: 322px;
+    margin-top: 26px;
+}
+
+.bottom .left{
+    float: left;
+    margin-right: 24px;
+}
+
+.bottom .left .title{
+    text-align: left;
+    height: 21px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    color: #222;
+}
+
+.bottom .right {
+    text-align: left;
+    float: right;
+
+}
+.bottom .right .name{
+    text-align: left;
+    height: 24px;
+    margin-top: 36px;
+    font-size: 20px;
+    color: #222;
+
+}
+.bottom .right .author{
+    text-align: left;
+    height: 24px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #222;
+}
+.bottom .right .content{
+    width: 690px;
+    text-align: left;
+    height: 110px;
+    font-size: 13px;
+    color: #222;
+}
+
+.bottom .right .more{
+    text-align: left;
+    height: 20px;
+    margin-bottom: 56px;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+}
+
+.bottom .right .bottoms {
+    width: 894px;
+    height: 20px;
+}
+.bottom .right .bottoms .left {
+    float: left;
+    color: #999;
+}
+.bottom .right .bottoms .right span:hover {
+color: #7B3E3E;cursor: pointer;
+}
+.bottom .right .bottoms .right i:hover {
+color: #7B3E3E;cursor: pointer;
+}
+
+.bottom .right .bottoms .right{
+    text-align: right;
+    height: 20px;
+   float: right;
+}
+
+.bottomed {
+    text-align: center;
+    height: 16px;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #AAAAAA;
+    margin-top: 192px;
+    margin-bottom: 20px;
+}

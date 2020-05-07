@@ -1,0 +1,99 @@
+
+/* 新闻详情页面start */
+.title {
+    text-align: center;
+    height: 99px;
+    padding-top: 41px;
+    margin: 0 auto;
+    font-size: 36px;
+    text-align: center;
+    color: #222;
+}
+
+.tag{
+   height: 55px; 
+   padding-top: 24px;
+   border-bottom:1px solid rgba(109, 136, 196, .1);
+   font-size: 13px;
+   color: #999;
+}
+
+.tag .tag1 {
+    float: left;
+    margin-right: 9px;
+}
+
+.tag .tag2 {
+    float: left;
+    margin-right: 29px;
+}
+
+.tag .tag3 {
+    float: left;
+}
+
+.tag .tag4 {
+    float: right;
+    margin-right: 32px;
+}
+
+.tag .tag5 {
+      float: right;
+}
+
+.introduction {
+    height: 40px;
+    margin-top: 20px;
+    border-left:2px solid rgba(109, 136, 196, .1);
+}
+
+.introduction .content {
+    text-align: left;
+    margin-left: 14px;
+    font-size: 14px;
+    color: #666;
+}
+
+.introduction img {
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+.introduction .dsc {
+   margin-top: 30px;
+   font-size: 16px;
+   line-height: 28px;
+   color:#222;
+}
+
+.introduction .bottom {
+   height: 65px;
+   margin-top: 420px;
+   background-color: #fff;
+   margin-bottom: 166px;
+   color:#222;
+}
+
+.introduction .bottom .left {
+    float: left;
+    text-align: left;
+    height: 19px;
+    margin-top: 23px;
+    margin-left: 24px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+}
+
+.introduction .bottom .right {
+    margin-top: 23px;
+    margin-right: 24px;
+    float: right;
+    color: #999;
+}
+
+.introduction .bottom .right i:hover{
+    color: #7B3E3E;cursor: pointer;
+}
+/* 新闻详情页面end */

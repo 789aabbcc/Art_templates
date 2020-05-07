@@ -1,0 +1,108 @@
+/* 艺术品 */
+
+
+.header {
+    width: 1200px;
+    height: 94px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+
+.topnav {
+    text-align: center;
+    padding-top: 47px;
+    margin: 0 auto;
+    font-size: 14px;
+    letter-spacing:20;
+    color:#999;
+    text-align: center;
+}
+
+.topnav span {
+    text-align: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.topnav .lastsp {
+    margin-right: 0px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.topnav span:hover,i:hover {
+    color: #7B3E3E; 
+}
+
+.mainART {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainART img {
+    width: 282px;
+    cursor: pointer;
+}
+
+.mainART .title {
+    text-align: left;
+    height: 45px;
+    margin-top: 18px;
+    margin-bottom: 48px;
+}
+.mainART .title .top{
+    text-align: left;
+    height: 25px;
+    font-size: 16px;
+    color: #7B3E3E;
+}
+
+.mainART .title .bottom{
+    width: 282px;
+    height: 20px;
+    font-size: 12px;
+}
+.mainART .title .bottom .left{
+   text-align: left;
+   float: left;
+   color: #999;
+}
+.mainART .title .bottom .right{
+    float: right;
+    text-align: right;
+    color: #666;
+}
+.paging {
+    text-align: center;
+    height: 318px;
+    padding-top: 120px;
+    margin: 0 auto;
+}
+
+.paging span {
+    display: inline-block;
+    text-align: center;
+    margin-right: 34px;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+}
+.paging span:hover {
+    color: #7B3E3E;
+    cursor: pointer;
+}
+.bottom {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #AAAAAA;
+    margin-bottom: 20px;
+}
+.tab-item {
+    display: none;
+    }
+
+.tab-item.active {
+    display: block;
+    }

@@ -1,0 +1,129 @@
+/* 展览 */
+
+.header {
+    width: 1200px;
+    height: 94px;
+    padding-bottom: 20px;
+}
+.topnav {
+    text-align: center;
+    padding-top: 47px;
+    margin: 0 auto;
+    font-size: 14px;
+    letter-spacing:20;
+    color:#999;
+}
+
+.topnav span {
+    width: 28px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.topnav span:hover,i:hover {
+   color: #7B3E3E;
+}
+
+.topnav .lastsp {
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+
+
+
+.content .top {
+    width: 368px;
+    height: 220px;
+    border: 16px solid #fff;
+}
+
+.content .list {
+    float: left;
+    width: 384px;
+    height: 470px;
+    margin-bottom: 20px;
+    margin-right: 24px;
+}
+
+.content .list .list-title {
+    text-align: left;
+    padding-top: 17px;
+    font-size: 16px;
+    color: #222;
+
+}
+.content .list .dsc {
+    text-align: left;
+    padding-top: 16px;
+    font-size: 12px;
+    color: #999;
+    padding-top: 6px;
+
+}
+.content .list .list-time {
+    text-align: left;
+    height: 16px;
+    padding-top: 16px;
+    font-size: 13px;
+    color: #666;
+}
+
+.content .list .list-content {
+    text-align: left;
+    height: 98px;
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+   
+}
+.content .list .list-price {
+    text-align: left;
+    height: 16px;
+    padding-top: 12px;
+    font-size: 12px;
+    color: #FF7108;
+}
+
+.paging {
+    text-align: center;
+    height: 318px;
+    padding-top: 120px;
+    margin: 0 auto;
+}
+
+.paging span {
+    display: inline-block;
+    text-align: center;
+    margin-right: 34px;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+}
+.paging span:hover {
+    color: #7B3E3E;
+    cursor: pointer;
+}
+.bottom {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #AAAAAA;
+    margin-bottom: 20px;
+}
+
+.cu {
+    color: #7B3E3E;cursor: pointer;
+}
+.main .content .mrs {
+    margin-right: 0px;
+}
+
+.tab-item {
+    display: none;
+}
+
+.tab-item.active {
+    display: block;
+}

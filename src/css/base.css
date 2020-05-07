@@ -1,0 +1,147 @@
+/* 清除默认样式 start */
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0
+}
+
+body, button, input, select, textarea {
+    font: 14px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+
+address, cite, dfn, em, var, i {
+    font-style: normal;
+}
+
+code, kbd, pre, samp {
+    font-family: courier new, courier, monospace;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+u{
+    text-decoration: none;
+}
+
+b {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #C64B4B;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+button {
+    border-radius: 0;
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+/* 清除默认样式 end */
+
+/* 清楚浮动 start */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+/* 清楚浮动 end */
+
+/* 设置基本样式 start */
+.w1200 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.fr {
+    float: right;!important;
+}
+.fl {
+    float: left;!important
+;}
+/* 设置基本样式 end */
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    height: 72px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header .logo {
+    margin-left: 50px;
+    line-height: 72px;
+    background: url("../images/logo.png") center left no-repeat;
+    background-size: 24px;
+}
+
+.logo span {
+    margin-left: 32px;
+    font-size: 16px;
+    color: #7B3E3E;
+}
+
+.menu {
+    line-height: 72px;
+    margin-right: 23px;
+}
+
+.menu li {
+    cursor: pointer;
+    padding: 0 27px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.menu i {
+    display: none;
+    position: relative;
+    bottom: 16px;
+    margin: 0 auto;
+    height: 0;
+    width: 0;
+    border: 8px solid;
+    border-color: transparent transparent #7B3E3E;
+}
+
+.menu li:hover {
+    color: #7B3E3E;
+}
+
+.menu li:hover i {
+    display: block;
+}
+
+.menu li.active {
+    color: #7B3E3E;
+}
+
+.menu li.active i {
+    display: block;
+}

@@ -1,0 +1,108 @@
+/* 联系我们 */
+
+.map img{
+    height: 320px;
+    background-size:contain;
+    width:100%; 
+}
+
+.contact{
+    width: 996px;
+    height: 368px;
+    padding-top: 88px;
+    margin: 0 auto;
+    margin-top: 6px;
+    
+}
+
+.contact .left {
+    width: 408px;
+    float: left;
+}
+
+.contact .left .title{
+    width: 112px;
+    font-size: 16px;
+    padding-bottom: 28px;
+    color: #222;
+}
+
+.contact .left .content{
+    padding-bottom: 9px;
+    font-size: 14px;
+    text-align: left;
+    color: #666;
+}
+.contact .left img{
+   padding-top: 10px;
+       cursor: pointer;
+}
+
+.contact .right{
+    width: 588px;
+    float: right;
+    overflow: hidden;
+}
+
+.contact .right .input1{
+    width: 282px;
+    height: 40px;
+    float: left;
+    border: 1px solid #EAEAEA;
+}
+
+.contact .right .input2{
+    width: 282px;
+    height: 40px;
+    float: right;
+        border: 1px solid #EAEAEA;
+}
+
+.contact .right .input3{
+    width: 588px;
+    height: 220px;
+    margin-top: 18px;
+        border: 1px solid #EAEAEA;
+        box-sizing:border-box;
+
+}
+.contact .right  .button{
+    width: 110px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 21px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #7B3E3E;
+    font-size: 14px;
+    color: #7B3E3E;
+    cursor: pointer;
+}
+.contact .right .bottom{
+    width: 152px;
+    height: 16px;
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 210px;
+    margin-bottom: 20px;
+}
+
+     input::-webkit-input-placeholder {
+         /* placeholder颜色  */
+         color: #AAAAAA;
+         /* placeholder字体大小  */
+         font-size: 14px;
+         /* placeholder位置  */
+
+         padding-left: 12px;
+     }
+     textarea::-webkit-input-placeholder {
+         /* placeholder颜色  */
+         color: #AAAAAA;
+         /* placeholder字体大小  */
+         font-size: 14px;
+         /* placeholder位置  */
+
+         padding-left: 12px;
+          padding-top: 12px;
+     }
