@@ -1,6 +1,6 @@
 
 
-/* 打包启动 */
+/* 打包启动  */
 const gulp = require('gulp');
 const watch = require('gulp-watch');
 const del = require('del');//清空目录
